@@ -1217,10 +1217,18 @@ img {
 
 /* min-width:320px and max-width:768px*/
 
+
+
+
+
+
 @media (min-width: 320px) and (max-width:768px) {
     .container {
-    margin: 0 auto;
-    overflow-x: hidden;
+      max-width: 768px;
+      margin: 0 auto;
+
+      overflow-x: hidden;
+    
   }
 
   .logo{
@@ -1271,7 +1279,7 @@ img {
     width: 408px ;
   }
   .modal-title{
-    width: 360px;
+    max-width: 360px;
     height: 48px;
     margin-top: 72px;
 
@@ -1283,6 +1291,7 @@ img {
   .modal-input{
     width:360px;
   }
+
 
   .checkbox-text{
     display: block;
@@ -1351,7 +1360,7 @@ img {
 
   .services-name {
     height: 120px;
-    width: 356px;
+    max-width: 356px;
     margin: 0 auto;
     padding: 0;
     gap: 24px;
@@ -1413,7 +1422,7 @@ img {
     /*border: #31d0aa 1px solid;*/
   }
  .team-list {
-  width: 552px;
+  max-width: 552px;
   height: 920px;
 
   display: flex;
